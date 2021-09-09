@@ -1,0 +1,1 @@
+# news_in_static_site
