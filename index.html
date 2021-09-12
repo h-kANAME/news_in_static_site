@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KYZ Technology</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,18 +18,43 @@
 
 <body>
 
-    <div class="container">
-        <nav class="nav-main">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="KYZ-Logo" class="nav-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control form-control-sm me-sm-3" type="search" placeholder="">
+                    <button class="btn btn-outline-purple" type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- <nav class="my-3 nav-main">
             <img src="img/logo.png" alt="KYZ-Logo" class="nav-logo">
             <ul class="nav-menu">
                 <li>
                     <a href="">Blockchain</a>
-                </li>
-                <li>
-                    <a href="">Wev Development</a>
-                </li>
-                <li>
-                    <a href="">Wev Development</a>
                 </li>
                 <li>
                     <a href="">Wev Development</a>
@@ -48,18 +76,203 @@
                     </a>
                 </li>
             </ul>
-        </nav>
-        <hr>
-        <!-- Second section-->
-        <header class="showcase">
-            <h2>Novedades</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eaque impedit quasi. Eius, iure quo
-                nostrum maiores numquam, ea eos incidunt alias possimus, illo laborum laboriosam saepe deleniti. Error,
-                sed?</p>
-            <a href="">Ver mas <i class="fas fa-angle-double-right"></i></a>
-        </header>
+        </nav> -->
+    <!-- <hr> -->
+    <header class="showcase">
+        <h2>Novedades</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto eaque impedit quasi. Eius,
+            iure quo
+            nostrum maiores numquam, ea eos incidunt alias possimus, illo laborum laboriosam saepe
+            deleniti.
+            Error,
+            sed?</p>
+        <a href="#" class="btn">Ver mas <i class="fas fa-angle-double-right"></i></a>
+    </header>
+    <!-- Banner section-->
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col md-12">
+                <div class="style-cards img-fluid">
+                    <div class="card">
+                        <img class="card-img-top" src="img/img_card_one.jpeg" alt="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo velit corporis impedit
+                            odio
+                            repudiandae
+                            id!</p>
+                        <a href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i> </a>
+                    </div>
+                    <div class="card text-black">
+                        <img src="img/img_card_two.jpeg" alt="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo velit corporis impedit
+                            odio
+                            repudiandae
+                            id!</p>
+                        <a href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i> </a>
+                    </div>
+                    <div class="card">
+                        <img src="img/img_card_three.jpeg" alt="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo velit corporis impedit
+                            odio
+                            repudiandae
+                            id!</p>
+                        <a href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i> </a>
+                    </div>
+                    <div class="card">
+                        <img src="img/img_card_four.jpeg" alt="">
+                        <h3>Lorem, ipsum dolor.</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo velit corporis impedit
+                            odio
+                            repudiandae
+                            id!</p>
+                        <a href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <div class="row">
+            <div class="row row-cols-1 row-cols-md-4 g-8">
+                <div class="col">
+                    <div class="card style-cards">
+                        <img src="img/img_card_one.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a class="btn text-white" href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card style-cards">
+                        <img src="img/img_card_two.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a class="btn text-white" href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card style-cards">
+                        <img src="img/img_card_three.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a class="btn text-white" href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card style-cards">
+                        <img src="img/img_card_four.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content.</p>
+                            <a class="btn text-white" href="#"> Leer aticulo <i class="fas fa-angle-double-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!--Card sections close-->
+    <hr>
+    <!--Start section baner-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <section class="section-banner">
+                    <div class="content-banner">
+                        <h2>Lo ultimo en Hardware!</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae placeat non
+                            laudantium dolorem
+                            dicta repellat.</p>
+                        <a class="btn" href="#">Mas detalles <i class="fas fa-angle-double-right"></i> </a>
+                    </div>
+                </section>
+
+                <section class="my-3 social">
+                    <h2>Redes Socciales</h2>
+                    <div class="links">
+                        <a href=""> <i class="fab fa-facebook-f"></i> </a>
+                        <a href=""> <i class="fab fa-twitter"></i> </a>
+                        <a href=""> <i class="fab fa-linkedin"></i> </a>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li> <a href="">
+                        <h3>Title</h3>
+                    </a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+            </ul>
+            <ul>
+                <li> <a href="">
+                        <h3>Title</h3>
+                    </a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+            </ul>
+            <ul>
+                <li> <a href="">
+                        <h3>Title</h3>
+                    </a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+            </ul>
+            <ul>
+                <li> <a href="">
+                        <h3>Title</h3>
+                    </a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+                <li> <a href="">Vinculo - Contenido</a> </li>
+            </ul>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h3>KYZ-Technology Copyright</h3>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+    
+    
 </body>
 
 </html>
